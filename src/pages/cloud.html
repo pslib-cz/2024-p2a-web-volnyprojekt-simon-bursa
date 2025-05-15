@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style2.css">
+
+
+    <title>Cloud Servery</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <p class="medium comfortaa">Kogaionon</p>
+        </div>
+        <nav class="navigation">
+                <li>
+                    <a href="./index.html" class="link link--activated">Úvodní stránka</a>
+                </li>
+                <li>
+                    <a href="./cloud.html" class="link">Cloud Servery</a>
+                </li>
+                <li>
+                    <a href="./dedicated.html" class="link">Dedikované servery</a>
+                </li>
+                <li>
+                    <a href="./contacts.html" class="link">Kontakty</a>
+                </li>
+        </nav>
+        <label for="menu-toggle" class="hamburger-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <div class="menu-items">
+            <ul>
+                <li><a href="./index.html">Úvodní stránka</a></li>
+                <li><a href="./cloud.html">Cloud Servery</a></li>
+                <li><a href="./dedicated.html">Dedikované servery</a></li>
+                <li><a href="./contacts.html">Kontakty</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="banner">
+            <h1 class="big comfortaa">Cloud Servery</h1>
+            <p class="medium">Výkonné cloud servery běžící na technologii KVM. Bez závazku, měsíční platba. </p>
+            <ul>
+                <li>Garance vrácení peněz</li>
+                <li>24/7 podpora</li>
+                <li>garance 99.99% uptime</li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <h2 class="comfortaa medium">Konfigurátor</h2>
+        </div>
+
+        <div class="container container--visible">
+            <h3 class="comfortaa medium blue bold">Výběr plánu</h3>
+
+            <div class="block">
+                <p class="comfortaa bold">Standard VPS</p>
+
+                <ul class="information">
+                    <li class="comfortaa">AMD Epyc Milan CPU</li>
+                    <li class="comfortaa">Poměr cena/výkon</li>
+                    <li class="comfortaa">DDR4 paměť</li>
+                </ul>
+            </div>
+
+            <div class="block">
+                <p class="comfortaa bold">Premium VPS</p>
+
+                <ul class="information">
+                    <li class="comfortaa">AMD Epyc 9654</li>
+                    <li class="comfortaa">zlatá střední cesta</li>
+                    <li class="comfortaa">DDR5 paměť</li>
+                </ul>
+            </div>
+
+            <div class="block">
+                <p class="comfortaa bold">Extreme VPS</p>
+
+                <ul class="information">
+                    <li class="comfortaa">AMD Ryzen 9950X</li>
+                    <li class="comfortaa">nejvyšší možný výkon</li>
+                    <li class="comfortaa">DDR5 paměť</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container container--visible">
+            <h3 class="comfortaa medium blue bold">Výběr regionu</h3>
+
+            <div class="block block--country">
+                <img class="country" alt="Vlajka USA" src="./images/usa.png">
+                <div class="name">
+                    <p class="comfortaa bold">New York, USA</p>
+                    <p class="comfortaa green bold">volno</p>
+                </div>
+            </div>
+
+            <div class="block block--country">
+                <img class="country" alt="Vlajka USA" src="./images/usa.png">
+                <div class="name">
+                    <p class="comfortaa bold">Los Angeles, USA</p>
+                    <p class="comfortaa green bold">volno</p>
+                </div>
+            </div>
+
+            <div class="block block--country">
+                <img class="country" alt="Vlajka USA" src="./images/usa.png">
+                <div class="name">
+                    <p class="comfortaa bold">Denver, USA</p>
+                    <p class="comfortaa green bold">volno</p>
+                </div>
+            </div>
+
+            <div class="block block--country block--disabled">
+                <img class="country" alt="Vlajka Německa" src="./images/germany.png">
+                <div class="name">
+                    <p class="comfortaa bold">Frankfurt, DE</p>
+                    <p class="comfortaa red bold">obsazeno</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container--visible">
+            <h3 class="comfortaa medium blue bold">Výběr instance</h3>
+
+            <div class="block">
+                <div class="heading">
+                    <h2 class="comfortaa blue">Standard S</h2>
+                </div>
+                <div class="price">
+                    <p class="big comfortaa bold">99 Kč</p>
+                    <p class="small gray">/měsíc</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>1 vCPU</li>
+                        <li>4 GB RAM</li>
+                        <li>50 GB NVMe SSD</li>
+                        <li>15TB Bandwidth</li>
+                    </ul>
+                </div>
+                <a class="button comfortaa">Zjistit více</a>
+            </div>
+
+            <div class="block">
+                <div class="heading">
+                    <h2 class="comfortaa blue">Standard M</h2>
+                </div>
+                <div class="price">
+                    <p class="big comfortaa bold">199 Kč</p>
+                    <p class="small gray">/měsíc</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>2 vCPU</li>
+                        <li>8 GB RAM</li>
+                        <li>100 GB NVMe SSD</li>
+                        <li>15TB Bandwidth</li>
+                    </ul>
+                </div>
+                <a class="button comfortaa">Zjistit více</a>
+            </div>
+
+            <div class="block">
+                <div class="heading">
+                    <h2 class="comfortaa blue">Standard L</h2>
+                </div>
+                <div class="price">
+                    <p class="big comfortaa bold">399 Kč</p>
+                    <p class="small gray">/měsíc</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>4 vCPU</li>
+                        <li>16 GB RAM</li>
+                        <li>200 GB NVMe SSD</li>
+                        <li>15TB Bandwidth</li>
+                    </ul>
+                </div>
+                <a class="button comfortaa">Zjistit více</a>
+            </div>
+
+            <div class="block">
+                <div class="heading">
+                    <h2 class="comfortaa blue">Standard XL</h2>
+                </div>
+                <div class="price">
+                    <p class="big comfortaa bold">799 Kč</p>
+                    <p class="small gray">/měsíc</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>8 vCPU</li>
+                        <li>32 GB RAM</li>
+                        <li>500 GB NVMe SSD</li>
+                        <li>30TB Bandwidth</li>
+                    </ul>
+                </div>
+                <a class="button comfortaa">Zjistit více</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <div class="img"></div>
+                <p class="bold medium comfortaa">Kogaionon</p>
+            </div>
+            <p>Výkonné servery za rozumnou cenu</p>
+
+            <div class="contact">
+                <a href="#">Kontakt: ceo@kogaionon.com</a>
+                <a href="#">Adresa: Kogaionon Hosting s.r.o, </a>
+                <a href="#">Masarykova 460/3, Liberec 1</a>
+            </div>
+        </div>
+
+        <div class="contact contact--end">
+            <a href="#">© Kogaionon Hosting s.r.o.</a>
+            <a href="#">Všechna práva vyhrazena</a>
+        </div>
+
+    </footer>
+</body>
+</html>
