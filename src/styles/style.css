@@ -1,7 +1,7 @@
-@import url("typography.css");
-@import url("components.css");
-@import url("fonts.css");
-@import url("normalize.css");
+@import url("/src/styles/typography.css");
+@import url("/src/styles/components.css");
+@import url("/src/styles/fonts.css");
+@import url("/src/styles/normalize.css");
 
 :root {
   --background: #ECF1F9;
