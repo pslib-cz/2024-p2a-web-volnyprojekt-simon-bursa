@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/src/styles/style.css">
-    <link rel="stylesheet" href="/src/styles/normalize.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,14 +14,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <title>Cloud Servery</title>
+    <title>Kogaionon | Cloud Servery</title>
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <p class="medium comfortaa">Kogaionon</p>
+            <p class="text text--medium text--comfortaa">Kogaionon</p>
         </div>
-        <nav class="navigation">
+        <nav class="nav">
+            <menu class="navigation">
                 <li>
                     <a href="./index.html" class="link link--activated">Úvodní stránka</a>
                 </li>
@@ -35,6 +35,7 @@
                 <li>
                     <a href="./contacts.html" class="link">Kontakty</a>
                 </li>
+            </menu>
         </nav>
         <label for="menu-toggle" class="hamburger-icon">
             <div></div>
@@ -54,8 +55,8 @@
 
     <div class="content">
         <div class="banner">
-            <h1 class="big comfortaa">Cloud Servery</h1>
-            <p class="medium">Výkonné cloud servery běžící na technologii KVM. Bez závazku, měsíční platba. </p>
+            <h1 class="text text--big text--comfortaa">Cloud Servery</h1>
+            <p class="text text--medium">Výkonné cloud servery běžící na technologii KVM. Bez závazku, měsíční platba. </p>
             <ul>
                 <li>Garance vrácení peněz</li>
                 <li>24/7 podpora</li>
@@ -64,89 +65,89 @@
         </div>
 
         <div class="container">
-            <h2 class="comfortaa medium">Konfigurátor</h2>
+            <h2 class="text text--comfortaa text--medium">Konfigurátor</h2>
         </div>
 
         <div class="container container--visible">
-            <h3 class="comfortaa medium blue bold">Výběr plánu</h3>
+            <h3 class="text text--comfortaa text--medium text--blue text--bold">Výběr plánu</h3>
 
-            <div class="block">
-                <p class="comfortaa bold">Standard VPS</p>
+            <div class="block block--hoverable">
+                <p class="text text--comfortaa text--bold">Standard VPS</p>
 
                 <ul class="information">
-                    <li class="comfortaa">AMD Epyc Milan CPU</li>
-                    <li class="comfortaa">Poměr cena/výkon</li>
-                    <li class="comfortaa">DDR4 paměť</li>
+                    <li class="text text--comfortaa">AMD Epyc Milan CPU</li>
+                    <li class="text text--comfortaa">Poměr cena/výkon</li>
+                    <li class="text text--comfortaa">DDR4 paměť</li>
                 </ul>
             </div>
 
-            <div class="block">
-                <p class="comfortaa bold">Premium VPS</p>
+            <div class="block block--hoverable">
+                <p class="text text--comfortaa text--bold">Premium VPS</p>
 
                 <ul class="information">
-                    <li class="comfortaa">AMD Epyc 9654</li>
-                    <li class="comfortaa">zlatá střední cesta</li>
-                    <li class="comfortaa">DDR5 paměť</li>
+                    <li class="text text--comfortaa">AMD Epyc 9654</li>
+                    <li class="text text--comfortaa">zlatá střední cesta</li>
+                    <li class="text text--comfortaa">DDR5 paměť</li>
                 </ul>
             </div>
 
-            <div class="block">
-                <p class="comfortaa bold">Extreme VPS</p>
+            <div class="block block--hoverable">
+                <p class="text text--comfortaa text--bold">Extreme VPS</p>
 
                 <ul class="information">
-                    <li class="comfortaa">AMD Ryzen 9950X</li>
-                    <li class="comfortaa">nejvyšší možný výkon</li>
-                    <li class="comfortaa">DDR5 paměť</li>
+                    <li class="text text--comfortaa">AMD Ryzen 9950X</li>
+                    <li class="text text--comfortaa">nejvyšší možný výkon</li>
+                    <li class="text text--comfortaa">DDR5 paměť</li>
                 </ul>
             </div>
         </div>
 
         <div class="container container--visible">
-            <h3 class="comfortaa medium blue bold">Výběr regionu</h3>
+            <h3 class="text text--comfortaa text--medium text--blue text--bold">Výběr regionu</h3>
 
-            <div class="block block--country">
+            <div class="block block--country block--hoverable">
                 <img class="country" alt="Vlajka USA" src="./images/usa.png">
                 <div class="name">
-                    <p class="comfortaa bold">New York, USA</p>
-                    <p class="comfortaa green bold">volno</p>
+                    <p class="text text--comfortaa text--bold">New York, USA</p>
+                    <p class="text text--comfortaa text--green text--bold">volno</p>
                 </div>
             </div>
 
-            <div class="block block--country">
+            <div class="block block--country block--hoverable">
                 <img class="country" alt="Vlajka USA" src="./images/usa.png">
                 <div class="name">
-                    <p class="comfortaa bold">Los Angeles, USA</p>
-                    <p class="comfortaa green bold">volno</p>
+                    <p class="text text--comfortaa text--bold">Los Angeles, USA</p>
+                    <p class="text text--comfortaa text--green text--bold">volno</p>
                 </div>
             </div>
 
-            <div class="block block--country">
+            <div class="block block--country block--hoverable">
                 <img class="country" alt="Vlajka USA" src="./images/usa.png">
                 <div class="name">
-                    <p class="comfortaa bold">Denver, USA</p>
-                    <p class="comfortaa green bold">volno</p>
+                    <p class="text text--comfortaa text--bold">Denver, USA</p>
+                    <p class="text text--comfortaa text--green text--bold">volno</p>
                 </div>
             </div>
 
             <div class="block block--country block--disabled">
                 <img class="country" alt="Vlajka Německa" src="./images/germany.png">
                 <div class="name">
-                    <p class="comfortaa bold">Frankfurt, DE</p>
-                    <p class="comfortaa red bold">obsazeno</p>
+                    <p class="text text--comfortaa text--bold">Frankfurt, DE</p>
+                    <p class="text text--comfortaa text--red text--bold">obsazeno</p>
                 </div>
             </div>
         </div>
 
         <div class="container container--visible">
-            <h3 class="comfortaa medium blue bold">Výběr instance</h3>
+            <h3 class="text text--comfortaa text--medium text--blue text--bold">Výběr instance</h3>
 
             <div class="block">
                 <div class="heading">
-                    <h2 class="comfortaa blue">Standard S</h2>
+                    <h2 class="text text--comfortaa text--blue">Standard S</h2>
                 </div>
                 <div class="price">
-                    <p class="big comfortaa bold">99 Kč</p>
-                    <p class="small gray">/měsíc</p>
+                    <p class="text text--comfortaa text--big text--bold">99 Kč</p>
+                    <p class="text text--small text--gray">/měsíc</p>
                 </div>
                 <div>
                     <ul>
@@ -156,16 +157,16 @@
                         <li>15TB Bandwidth</li>
                     </ul>
                 </div>
-                <a class="button comfortaa">Zjistit více</a>
+                <a class="button">Zjistit více</a>
             </div>
 
             <div class="block">
                 <div class="heading">
-                    <h2 class="comfortaa blue">Standard M</h2>
+                    <h2 class="text text--comfortaa text--blue">Standard M</h2>
                 </div>
                 <div class="price">
-                    <p class="big comfortaa bold">199 Kč</p>
-                    <p class="small gray">/měsíc</p>
+                    <p class="text text--comfortaa text--big text--bold">199 Kč</p>
+                    <p class="text text--small text--gray">/měsíc</p>
                 </div>
                 <div>
                     <ul>
@@ -175,16 +176,16 @@
                         <li>15TB Bandwidth</li>
                     </ul>
                 </div>
-                <a class="button comfortaa">Zjistit více</a>
+                <a class="button">Zjistit více</a>
             </div>
 
             <div class="block">
                 <div class="heading">
-                    <h2 class="comfortaa blue">Standard L</h2>
+                    <h2 class="text text--comfortaa text--blue">Standard L</h2>
                 </div>
                 <div class="price">
-                    <p class="big comfortaa bold">399 Kč</p>
-                    <p class="small gray">/měsíc</p>
+                    <p class="text text--comfortaa text--big text--bold">399 Kč</p>
+                    <p class="text text--small text--gray">/měsíc</p>
                 </div>
                 <div>
                     <ul>
@@ -194,16 +195,16 @@
                         <li>15TB Bandwidth</li>
                     </ul>
                 </div>
-                <a class="button comfortaa">Zjistit více</a>
+                <a class="button">Zjistit více</a>
             </div>
 
             <div class="block">
                 <div class="heading">
-                    <h2 class="comfortaa blue">Standard XL</h2>
+                    <h2 class="text text--comfortaa text--blue">Standard XL</h2>
                 </div>
                 <div class="price">
-                    <p class="big comfortaa bold">799 Kč</p>
-                    <p class="small gray">/měsíc</p>
+                    <p class="text text--comfortaa text--big text--bold">799 Kč</p>
+                    <p class="text text--small text--gray">/měsíc</p>
                 </div>
                 <div>
                     <ul>
@@ -213,7 +214,7 @@
                         <li>30TB Bandwidth</li>
                     </ul>
                 </div>
-                <a class="button comfortaa">Zjistit více</a>
+                <a class="button">Zjistit více</a>
             </div>
         </div>
     </div>
@@ -221,23 +222,23 @@
     <footer class="footer">
         <div class="container">
             <div class="logo">
-                <div class="img"></div>
-                <p class="bold medium comfortaa">Kogaionon</p>
+                <p class="text text--comfortaa text--medium text--bold">Kogaionon</p>
             </div>
             <p>Výkonné servery za rozumnou cenu</p>
-
+            
             <div class="contact">
-                <a href="#">Kontakt: ceo@kogaionon.com</a>
-                <a href="#">Adresa: Kogaionon Hosting s.r.o, </a>
-                <a href="#">Masarykova 460/3, Liberec 1</a>
+                <a href="./contacts.html">Kontakt: ceo@kogaionon.com</a>
+                <a href="./contacts.html">Adresa: Kogaionon Hosting s.r.o, </a>
+                <a href="./contacts.html">Masarykova 460/3, Liberec 1</a>
             </div>
         </div>
+        
 
         <div class="contact contact--end">
-            <a href="#">© Kogaionon Hosting s.r.o.</a>
-            <a href="#">Všechna práva vyhrazena</a>
+            <a href="./contacts.html">© Kogaionon Hosting s.r.o.</a>
+            <a href="./contacts.html">Všechna práva vyhrazena</a>
         </div>
-
+        
     </footer>
 </body>
 </html>
