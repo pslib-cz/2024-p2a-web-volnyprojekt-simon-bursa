@@ -1,11 +1,39 @@
 .text--big {
     font-size: 3em;
 }
-  
+
 .text--medium {
     font-size: 1.5em;
 }
 
 .text--bold {
     font-weight: 600;
+}
+
+.text--gray {
+    color: var(--gray);
+}
+
+.text--blue {
+    color: var(--blue);
+}
+
+.text--blue-border {
+    border-color: var(--blue-border);
+}
+
+.text--green {
+    color: var(--green);
+}
+
+.text--red {
+    color: var(--red);
+}
+
+.text--yellow {
+    color: var(--yellow);
+}
+
+.text--white {
+    color: var(--white);
 }

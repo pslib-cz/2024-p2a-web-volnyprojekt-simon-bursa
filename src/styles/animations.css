@@ -1,0 +1,21 @@
+@keyframes resize {
+    0% { scale: 100%; }
+    50% { scale: 125%; }
+    100% { scale: 100%; }
+}
+
+@keyframes blick {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes look {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-2px); }
+    30% { transform: translateX(2px); }
+    50% { transform: translateX(-2px); }
+    70% { transform: translateX(2px); }
+    90% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+}

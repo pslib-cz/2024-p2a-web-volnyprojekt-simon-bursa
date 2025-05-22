@@ -2,38 +2,39 @@
 /* Block */
 
 .block {
-    border: 1px solid var(--primary);
+    border: 1px solid var(--primary-border);
     border-radius: 1em;
     padding: 1em;
 }
 
-.block--hoverable:hover {
-    border-color: var(--gray);
-}
-  
 .block--country {
     display: flex;
     align-items: center;
+    gap: 1em;
 }
-  
+
+.block__information {
+    color: var(--blue);
+}
+
 .block--disabled {
     border-color: var(--gray);
     color: var(--gray);
 }
-  
-.block--country .name {
+
+.block--disabled__information {
+    color: var(--gray);
+}
+
+.block__name {
     text-align: center;
 }
-  
-.block--country .country, .block--country .name {
+
+.block__country, .block__name {
     flex-grow: 1;
 }
 
-.block .information {
-    color: var(--blue);
-}
-
-.block .price {
+.block__price {
     display: flex;
     align-items: center;
 }
@@ -57,7 +58,7 @@
 }
   
 .button:hover {
-    color: var(--white);
+    color: var(--gray);
 }
 
 /* Container */
@@ -66,11 +67,19 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin: 2em;
+    margin: 2em 2em;
+}
+
+.container--resizable {
+    margin: 2em 15em;
+}
+
+.container--nonmargin {
+    margin: 0;
 }
   
 .container--visible {
-    border: 1px solid var(--primary);
+    border: 1px solid var(--primary-border);
     border-radius: 1em;
     padding: 0.5em;
     padding-top: 1em;
@@ -95,42 +104,42 @@
 .presentation {
     display: flex;
     flex-direction: column;
-    background-color: var(--blue);
+    background-color: var(--blue-unchanged);
     color: var(--white);
-    padding: 2em;
+    padding: 2em 15em;
   }
   
 .presentation:nth-child(odd) {
     background-color: var(--primary);
 }
   
-.presentation .icon {
+.presentation__icon {
     width: 90px;
     height: 90px;
 }
 
 /* Navigation */
 
-.header .logo {
+.header__logo {
     display: block;
     align-items: center;
     color: var(--white);
     line-height: 80px;
 }
   
-.navigation {
+.header__navigation {
     list-style-type: none;
     display: flex;
     align-items: center;
     gap: 1em;
 }
   
-.navigation li a {
+.header__link{
     text-decoration: none;
     color: var(--white);
 }
   
-.navigation li a:hover {
+.header__link:hover {
     color: var(--gray);
 }
   
@@ -222,4 +231,148 @@
     color: var(--gray);
 }
 
-  
+.icon {
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+
+.icon--cpu {
+    background: url("/public/images/cpu.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+}
+
+.cpu-heart {
+    background: url("/public/images/heart.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+
+    position: absolute;
+    left: 35px;
+    top: 35px;
+
+    width: 20px;
+    height: 20px;
+
+    animation: resize 2s infinite;
+}
+
+.wifi-signal-1,
+.wifi-signal-2,
+.wifi-signal-3,
+.wifi-dot-left,
+.wifi-dot-right {
+    position: absolute;
+    background-color: var(--primary);
+    animation: blick 1s infinite ease-in-out;
+}
+
+.wifi-signal-1 {
+    width: 40px;
+    height: 20px;
+
+    left: 25px;
+    bottom: 22px;
+}
+
+.wifi-signal-2 {
+    width: 65px;
+    height: 20px;
+
+    left: 12px;
+    bottom: 40px;
+
+    animation-delay: 0.2s;
+}
+
+.wifi-signal-3 {
+    width: 90px;
+    height: 20px;
+
+    left: 0px;
+    top: 10px;
+
+    animation-delay: 0.4s;
+}
+
+.wifi-dot-left {
+    width: 15px;
+    height: 12px;
+
+    left: 0px;
+    top: 30px;
+
+    animation-delay: 0.4s;
+}
+
+.wifi-dot-right {
+    width: 15px;
+    height: 15px;
+
+    left: 77px;
+    top: 30px;
+
+    animation-delay: 0.4s;
+}
+
+.icon--wifi {
+    background: url("/public/images/wifi.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.icon--eye {
+    background: url("/public/images/eye1.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.eye-pupil {
+    background: url("/public/images/eye2.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 90px;
+    height: 90px;
+
+    animation: look 10s infinite ease-in-out;
+}
+
+.icon--server {
+    background: url("/public/images/server.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.server-dot {
+    background: url("/public/images/server2.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+
+    position: absolute;
+
+    width: 90px;
+    height: 90px;
+
+    animation: blick 0.4s infinite ease-in-out;
+}

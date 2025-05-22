@@ -1,0 +1,38 @@
+@media (min-width: 900px) {
+    .hamburger-icon {
+        display: none; 
+    }
+
+    .container--products {
+        flex-direction: row;
+    }  
+
+    .container--products .block {
+        flex-grow: 1;
+    }
+
+    .presentation {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .presentation__text {
+    line-height: 1em;
+    margin-top: 1em;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container--statistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas: 
+    "a b"
+    ". c";
+  }
+}
