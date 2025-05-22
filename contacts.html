@@ -17,33 +17,33 @@
     <link rel="stylesheet" href="./style2.css">
 
     <title>Kogaionon | Kontakty</title>
-  <link rel="stylesheet" crossorigin href="/2024-p2a-web-volnyprojekt-simon-bursa/assets/style-BD0ZDDkM.css">
+  <link rel="stylesheet" crossorigin href="/2024-p2a-web-volnyprojekt-simon-bursa/assets/style-CjwcAWJq.css">
 </head>
 <body>
     <header class="header">
-        <div class="logo">
-            <p class="text text--confortaa text--medium">Kogaionon</p>
+        <div class="header__logo">
+            <a class="text text--medium text--comfortaa" href="./index.html">Kogaionon</a>
         </div>
-        <nav class="nav">
-            <menu class="navigation">
+        <nav>
+            <menu class="header__navigation">
                 <li>
-                    <a href="./index.html" class="link link--activated">Úvodní stránka</a>
+                    <a href="./index.html" class="header__link">Úvodní stránka</a>
                 </li>
                 <li>
-                    <a href="./cloud.html" class="link">Cloud Servery</a>
+                    <a href="./cloud.html" class="header__link">Cloud Servery</a>
                 </li>
                 <li>
-                    <a href="./dedicated.html" class="link">Dedikované servery</a>
+                    <a href="./dedicated.html" class="header__link">Dedikované servery</a>
                 </li>
                 <li>
-                    <a href="./contacts.html" class="link">Kontakty</a>
+                    <a href="./contacts.html" class="hrader__link header__link--activated">Kontakty</a>
                 </li>
             </menu>
         </nav>
         <label for="menu-toggle" class="hamburger-icon">
-            <div></div>
-            <div></div>
-            <div></div>
+            <span></span>
+            <span></span>
+            <span></span>
         </label>
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
         <div class="menu-items">
@@ -61,15 +61,14 @@
             <h1 class="text text--comfortaa text--big">Kontakty</h1>
         </div>
 
-        <div class="nevim">
-            <div class="container">
+        <div class="wrapper wrapper--contacts">
+            <div class="container container--nonmargin">
                 <h2 class="text text--comfortaa text--medium">Vedení společnosti</h2>
     
                 <div class="person">
                     <h3 class="text text--comfortaa text--blue">CEO</h3>
     
                     <div class="information">
-    
                         <div class="contacts">
                             <p class="text text--comfortaa">Mgr. John Doe</p>
                             <p class="text text--comfortaa">Tel.: +420 685 254 741</p>
@@ -84,7 +83,6 @@
                     <h3 class="text text--comfortaa text--blue">Executive Officer</h3>
     
                     <div class="information">
-    
                         <div class="contacts">
                             <p class="text text--comfortaa">Ing. Jane Doeová</p>
                             <p class="text text--comfortaa">Tel.: +420 685 254 742</p>
@@ -96,7 +94,7 @@
                 </div>
             </div>
     
-            <div class="container">
+            <div class="container container--nonmargin">
                 <h2 class="text text--comfortaa text--medium">Obecné informace</h2>
     
                 <div class="contacts">
@@ -129,7 +127,7 @@
                 </div>
             </div>
     
-            <div class="container">
+            <div class="container container--nonmargin">
                 <h2 class="text text--comfortaa text--medium">Zde nás najdete</h2>
     
                 <div class="map">
@@ -137,7 +135,7 @@
                 </div>
             </div>
 
-            <div class="container container--form">
+            <div class="container container--form container--nonmargin">
                 <h2 class="text text--comfortaa text--medium">Kontaktní formulář</h2>
 
                 <form action="/action_page.php" method="get" target="_blank">
@@ -146,31 +144,52 @@
                     <label class="label" for="fname">E-mail</label>
                     <input class="input" type="text" id="fname" name="fname">
                     <label class="label" for="fmail">Zpráva</label>
-                    <textarea class="input" id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                    <textarea class="input" id="farea" rows="4" cols="50"></textarea>
                 </form>
                 
-                <a class="button">Odeslat</a>
+                <a class="button" href="./index.html">Odeslat</a>
             </div>
         </div>
-    </body>
+    </div>
 
     <footer class="footer">
-        <div class="container">
-            <div class="logo">
-                <p class="text text--comfortaa text--medium text--bold">Kogaionon</p>
+        <div class="container container--resizable">
+            <div class="wrapper">
+                <div>
+                <div class="logo">
+                    <p class="text text--comfortaa text--medium text--bold">Kogaionon</p>
+                </div>
+                <p>Výkonné servery za rozumnou cenu</p>
+                
+                <div class="contact">
+                    <a class="text text--green" href="./contacts.html">Kontakt: ceo@kogaionon.com</a>
+                    <a href="./contacts.html">Adresa: Kogaionon Hosting s.r.o, </a>
+                    <a href="./contacts.html">Masarykova 460/3, Liberec 1</a>
+                </div>
             </div>
-            <p>Výkonné servery za rozumnou cenu</p>
             
-            <div class="contact">
-                <a href="./contacts.html">Kontakt: ceo@kogaionon.com</a>
-                <a href="./contacts.html">Adresa: Kogaionon Hosting s.r.o, </a>
-                <a href="./contacts.html">Masarykova 460/3, Liberec 1</a>
+            <div class="solutions">
+                <div class="solution__item">
+                    <p class="text text--bold">Služby</p>
+                    <div class="contact contact--start">
+                        <a href="./cloud.html">Cloud Servery</a>
+                        <a href="./dedicated.html">Dedikované servery</a>
+                    </div>    
+                </div>
+                <div class="solution__item">
+                    <p class="text text--bold">Podpora</p>
+                    <div class="contact contact--start">
+                        <a href="./contacts.html">Kontakty</a>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
-
+        
         <div class="contact contact--end">
             <a href="./contacts.html">© Kogaionon Hosting s.r.o.</a>
             <a href="./contacts.html">Všechna práva vyhrazena</a>
         </div>
     </footer>
+</body>
 </html>

@@ -1,0 +1,1 @@
+@keyframes resize{0%{scale:100%}50%{scale:125%}to{scale:100%}}@keyframes blick{0%{opacity:1}50%{opacity:0}to{opacity:1}}@keyframes look{0%{transform:translate(0)}10%{transform:translate(-2px)}30%{transform:translate(2px)}50%{transform:translate(-2px)}70%{transform:translate(2px)}90%{transform:translate(-2px)}to{transform:translate(0)}}
