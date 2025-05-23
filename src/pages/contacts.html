@@ -4,14 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
     <title>Kogaionon | Kontakty</title>
     <link rel="icon" type="image/x-icon" href="/images/icon.ico">
     <link rel="stylesheet" href="/src/styles/style.css">
@@ -71,28 +63,28 @@
                 <div class="person">
                     <h3 class="text text--comfortaa text--blue">CEO</h3>
     
-                    <div class="information">
+                    <div class="person__information">
                         <div class="contacts">
                             <p class="text text--comfortaa">Mgr. John Doe</p>
                             <p class="text text--comfortaa">Tel.: +420 685 254 741</p>
                             <p class="text text--comfortaa">E-mail: doe@kogaionon.com</p>
                         </div>
     
-                        <img class="person-photo" alt="Vlajka USA" src="./images/person1.png">
+                        <img class="person__photo" alt="Vlajka USA" src="./images/person1.png">
                     </div>
                 </div>
     
                 <div class="person">
                     <h3 class="text text--comfortaa text--blue">Executive Officer</h3>
     
-                    <div class="information">
+                    <div class="person__information">
                         <div class="contacts">
                             <p class="text text--comfortaa">Ing. Jane Doeová</p>
                             <p class="text text--comfortaa">Tel.: +420 685 254 742</p>
                             <p class="text text--comfortaa">E-mail: hoe@kogaionon.com</p>
                         </div>
     
-                        <img class="person-photo" alt="Vlajka USA" src="./images/person2.png">
+                        <img class="person__photo" alt="Vlajka USA" src="./images/person2.png">
                     </div>
                 </div>
             </div>
@@ -134,7 +126,7 @@
                 <h2 class="text text--comfortaa text--medium">Zde nás najdete</h2>
     
                 <div class="map">
-                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Masarykova+3,+460+84+Liberec&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    <iframe class="map__iframe" src="https://www.google.com/maps/embed/v1/place?q=Masarykova+3,+460+84+Liberec&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                 </div>
             </div>
 
@@ -144,10 +136,10 @@
                 <form action="/action_page.php" method="get" target="_blank">
                     <label class="label" for="fname">Jméno a příjmení</label>
                     <input class="input" type="text" id="fname" name="fname">
-                    <label class="label" for="fname">E-mail</label>
-                    <input class="input" type="text" id="fname" name="fname">
-                    <label class="label" for="fmail">Zpráva</label>
-                    <textarea class="input" id="farea" rows="4" cols="50"></textarea>
+                    <label class="label" for="femail">E-mail</label>
+                    <input class="input" type="text" id="femail" name="femail">
+                    <label class="label" for="fmessage">Zpráva</label>
+                    <textarea class="input" id="fmessage" rows="4" cols="50"></textarea>
                 </form>
                 
                 <a class="button" href="./index.html">Odeslat</a>
@@ -165,8 +157,8 @@
                 <p>Výkonné servery za rozumnou cenu</p>
                 
                 <div class="contact">
-                    <a href="./contacts.html">Kontakt: ceo@kogaionon.com</a>
-                    <a href="./contacts.html">Adresa: Kogaionon Hosting s.r.o, </a>
+                    <a class="ligature-email" href="mailto:ceo@kogaionon.com">Kontakt: ceo@kogaionon.com</a>
+                    <a class="ligature-address" href="./contacts.html">Adresa: Kogaionon Hosting s.r.o, </a>
                     <a href="./contacts.html">Masarykova 460/3, Liberec 1</a>
                 </div>
             </div>
