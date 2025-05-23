@@ -404,7 +404,7 @@
     display: block;
     color: var(--white);
     padding: 5em 15em;
-    background: url("/images/banner_background.jpg") lightgray 25% / cover no-repeat;
+    background: url("/images/banner_background.webp") lightgray 25% / cover no-repeat;
 }
 
 .message-block {
@@ -419,7 +419,7 @@
 
     grid-area: a;
 
-    background: url("/images/banner_background.jpg") lightgray 25% / cover no-repeat;
+    background: url("/images/banner_background.webp") lightgray 25% / cover no-repeat;
 }
 
 .swiper {
@@ -432,7 +432,7 @@
     padding: 1em 0;
 }
 
-a:visited, a:hover, a:active {
+a:link, a:visited, a:hover, a:active {
     color: var(--white);
 }
 
@@ -448,6 +448,7 @@ a:visited, a:hover, a:active {
 a {
     display: block;
     text-decoration: none;
+    color: var(--white);
 }
 
 .content__item {

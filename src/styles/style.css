@@ -1,9 +1,11 @@
-@import url("/src/styles/typography.css");
-@import url("/src/styles/components.css");
-@import url("/src/styles/fonts.css");
-@import url("/src/styles/normalize.css");
-@import url("/src/styles/animations.css");
-@import url("/src/styles/layout.css");
+@layer normalize, components, fonts, animations, layout, typography;
+
+@import "components.css" layer(components);
+@import "normalize.css" layer(normalize);
+@import "animations.css" layer(animations);
+@import "typography.css" layer(typography);
+@import "layout.css" layer(layout);
+@import "fonts.css" layer(fonts);
 
 :root {
   color-scheme: light dark;
