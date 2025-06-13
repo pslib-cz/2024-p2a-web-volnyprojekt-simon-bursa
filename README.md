@@ -39,5 +39,5 @@ Na rozdíl od mnoha jiných levných hostingových služeb, kde nasazení server
 **Odkazy:**
 
 * **Board (Figma):** [https://www.figma.com/design/Qdx1wBKbS6kvpvpGO5cfmA/Bursa%C5%A0imon?node-id=3-2&t=tCNuVqsHZ8shsDIg-1](https://www.figma.com/design/Qdx1wBKbS6kvpvpGO5cfmA/Bursa%C5%A0imon?node-id=3-2&t=tCNuVqsHZ8shsDIg-1)
-* **Pages:** [https://simon-bursa.github.io/2024-p2a-web-volnyprojekt-simon-bursa/](https://simon-bursa.github.io/2024-p2a-web-volnyprojekt-simon-bursa/)
+* **Pages:** [https://simon-bursa.github.io/2024-p2a-web-volnyprojekt-simon-bursa/](https://pslib-cz.github.io/2024-p2a-web-volnyprojekt-simon-bursa/index.html)
 * **Word (SharePoint):** [https://pslib.sharepoint.com/:w:/s/P2AMME2024sk.1/Ec9d79oUzKBDvFahhlXMv8QBnp-ZoQOz_i0w1VtKiryDSQ?e=BJHhYs](https://pslib.sharepoint.com/:w:/s/P2AMME2024sk.1/Ec9d79oUzKBDvFahhlXMv8QBnp-ZoQOz_i0w1VtKiryDSQ?e=BJHhYs)
